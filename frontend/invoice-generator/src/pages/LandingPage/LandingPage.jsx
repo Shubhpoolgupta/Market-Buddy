@@ -4,15 +4,17 @@ import Hero from '../../components/landing/Hero'
 import Features from '../../components/landing/Features'
 import Testimonials from '../../components/landing/Testimonials'
 import FAQ from '../../components/landing/FAQ'
+import Footer from '../../components/landing/Footer'
 function LandingPage() {
   return (
-    <div className='bg-[#ffffff] text-gray-600'>
+    <div>
       <Header/>
       <main className='mb-[100vh]'>
         <Hero/>
         <Features/>
         <Testimonials/>
         <FAQ/>
+        <Footer/>
       </main>
     </div>
   )
