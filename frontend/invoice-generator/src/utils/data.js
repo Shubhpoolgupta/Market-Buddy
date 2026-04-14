@@ -1,4 +1,4 @@
-import { BarChart2, FileText, Mail, Sparkles } from "lucide-react";
+import { BarChart2, FileText, LayoutDashboard, Mail, Plus, Sparkles, Users } from "lucide-react";
 
 export const FEATURES = [
   {
@@ -27,3 +27,47 @@ export const FEATURES = [
   },
 ];
 
+export const TESTIMONIALS = [
+  {
+    quote: "This app saved me hours of work. I can now create and send invoices in minutes!",
+    author: "Debesh Behera",
+    title: "Freelance Designer",
+    avatar: "https://placehold.co/100x100/000000/ffffff?text=DB"
+  },
+  {
+    quote: "The best invoicing app I have ever used. Simple, intuitive, and powerful.",
+    author: "Lokesh Reddy",
+    title: "Small Business Owner",
+    avatar: "https://placehold.co/100x100/000000/ffffff?text=LR"
+  },
+  {
+    quote: "I love the dashboard and reporting features. It helps me keep track of my finances easily.",
+    author: "Ashutosh Sahoo",
+    title: "Consultant",
+    avatar: "https://placehold.co/100x100/000000/ffffff?text=AS"
+  }
+];
+
+export const FAQS = [
+    {
+    question: "How does the AI invoice creation work?",
+    answer: "Simply paste any text that contains invoice details - like an email, a list of items, or a work summary & our AI will instantly parse it to pre-fill a new invoice for you, saving your time and effort."
+  }, {
+    question: "Is my data secure?",
+    answer: "Yes, we take data security seriously and use industry-standard measures to protect your information."
+  }, {
+    question: "Can I add items later to an invoice?",
+    answer: "Yes, you can add other items and edit your your invoice later."
+  }, {
+    question: "How do I send payment reminders?",
+    answer: "You can get an AI-generated reminder. Simply just copy that and send to the client."  
+  }    
+]
+
+// navigation iytems configuration
+export const NAVIGATION_MENU = [
+  { id : "dashboard", name : "Dashbaord", icon : LayoutDashboard},
+  { id : "invoices", name : "Invoices", icon : FileText},
+  { id : "invoices/new", name : "Create Invoice", icon : Plus},
+  { id : "profile", name : "Profile", icon : Users},
+]
