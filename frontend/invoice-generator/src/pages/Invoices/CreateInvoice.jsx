@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import moment from "moment";
 import {useAuth} from "../../context/AuthContext";
 
-import TextareaField from "../../components/ui/TextAreaField";
+import TextareaField from "../../components/ui/TextareaField";
 import InputField from "../../components/ui/InputField";
 import SelectField from "../../components/ui/SelectField";
 import Button from "../../components/ui/Button";
