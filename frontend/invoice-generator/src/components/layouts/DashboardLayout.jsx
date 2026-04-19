@@ -98,7 +98,7 @@ const DashboardLayout = ({children, activeMenu}) => {
                 <div className="h-8 w-8 bg-gradient-to-br from-blue-900 to-blue-700 rounded-lg flex items-center justify-center">
                   <Briefcase className="h-5 w-5 text-white" />
                 </div>
-                {!sidebarCollapsed && <span className="text-gray-900 font-bold text-xl">InvoGen</span>}
+                {!sidebarCollapsed && <span className="text-gray-900 font-bold text-xl">Market-Buddy</span>}
               </Link>
             </div>
 
